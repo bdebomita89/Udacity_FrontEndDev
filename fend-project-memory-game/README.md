@@ -3,7 +3,7 @@
 ## Table of Contents
 
 * [Instructions](#instructions)
-* [About the Project](#contributing)
+* [About the Project](#About the project)
 
 ## Instructions
 
@@ -13,7 +13,7 @@
     *Game can be played on desktops, tablets and mobiles
 
 
-## Abount the project
+## About the project
 
     *Click on card
     *Timer will start
