@@ -1,9 +1,5 @@
 # Memory Game Project
 
-## Table of Contents
-
-* [Instructions](#instructions)
-* [About the Project](#About the project)
 
 ## Instructions
 
