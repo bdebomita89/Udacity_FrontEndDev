@@ -1,9 +1,5 @@
 # Memory Game Project
 
-## Table of Contents
-
-* [Instructions](#instructions)
-* [About the Project](#contributing)
 
 ## Instructions
 
@@ -13,7 +9,7 @@
     *Game can be played on desktops, tablets and mobiles
 
 
-## Abount the project
+## About the project
 
     *Click on card
     *Timer will start
