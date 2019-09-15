@@ -1,0 +1,145 @@
+
+
+.heading{
+   max-width: 100%;
+   display: block;
+}
+.heading img{
+   float: left;
+   
+}
+.heading h1,h3{
+   text-align: right;
+   color: #2d3c49; 
+   padding: 5px;
+}
+.break{
+   background-color: #7d97ad;
+   width: 100%;
+   height: 5px;
+}
+.navigation{
+   align-content: center;
+}
+.l1 li{
+ list-style-type: none;
+  display: inline-block;
+  font-size: 20px;
+}
+.li li .samepage{
+   color:#2d3c49;
+}
+ .l1 li a{
+    text-decoration: none;
+    color:#7d97ad;
+    
+ }
+
+ .l1 li a:active{
+   text-decoration: none;
+   color:#2d3c49;
+   font-size: 20px;
+}
+.section img{
+   max-width: 100%; 
+}
+.secondsection{
+   padding: 10px;
+}
+.secondsection img{
+   margin:auto;
+   max-width:100%;
+}
+.Project1 {
+   float: left;
+   width: 33.3%;
+   padding-bottom: 30px;
+}
+.Project1 a{
+   font-size: 20px;
+   color:#7d97ad;
+   text-decoration: none;
+}
+.Project1 a:hover{
+   color: black;
+   text-decoration: underline;
+}
+.footer p{
+   color: #2d3c49; 
+   justify-content: center;
+   text-align: center;
+}
+
+.footer p a{
+   text-decoration: none;
+   color: #2d3c49;
+}
+
+.footer p a:visited{
+   text-decoration: none;
+   color: #2d3c49;
+}
+.footer p a:hover{
+   text-decoration: underline;
+}
+.aboutme img{
+   float: right;
+   border: 2px solid black;
+}
+.aboutme p{
+   font-size: 20px;
+   align-items: center;
+   justify-content: center;
+
+}
+.container{
+   width:60%;
+   margin:auto;
+}
+@media only screen and (min-width: 300px) and (max-width: 1400) {
+   container {
+      display: flex;
+      flex:nowrap;
+      flex-direction: row;
+   }
+}
+@media screen and (min-width: 300px) and (max-width: 1400) {
+   .heading {
+     max-width: 50%;
+    flex-wrap: wrap;
+    flex-direction: column;
+   }
+  }
+@media screen and (min-width: 300px) and (max-width: 1400) {
+ .section img{
+   max-width: 33.3%;
+  flex-wrap: wrap;
+ }
+}
+@media screen and (min-width: 300px) and (max-width: 1400) {
+   .break{
+     max-width: 100%;
+    flex-wrap: wrap;
+   }
+  }
+  @media screen and (min-width: 300px) and (max-width: 1400) {
+   .secondsection img{
+      display: flex;
+      max-width: 100%;
+      flex:nowrap;
+      flex-direction: row; 
+   }
+  }
+  @media screen and (min-width: 300px) and (max-width: 1400) {
+   .Project1 a{
+      word-break: break-word;
+   }
+  }
+  @media screen and (min-width: 300px) and (max-width: 1400) {
+   .aboutme{
+     max-width: 50%;
+    flex-wrap: wrap;
+    flex-direction: row;
+   }
+  }
+  
