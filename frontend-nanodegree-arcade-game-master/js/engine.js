@@ -72,6 +72,7 @@ var Engine = (function(global) {
            enemy.update(dt);
         });
        player.update();
+       gem.update();
       
     }
    
@@ -112,6 +113,7 @@ var Engine = (function(global) {
         }
 
         renderEntities();
+        gem.render();
         
     }
 
@@ -122,6 +124,7 @@ var Engine = (function(global) {
         });
 
         player.render();
+        gem.render();
           
     }
     
